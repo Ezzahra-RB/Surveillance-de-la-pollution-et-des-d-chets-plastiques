@@ -1,0 +1,21 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+
+# nc: 1
+# names: ['trash']
+
+# roboflow:
+#   workspace: mohamed-traore-2ekkp
+#   project: taco-trash-annotations-in-context
+#   version: 16
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/mohamed-traore-2ekkp/taco-trash-annotations-in-context/dataset/16
+
+
+train: ./Taco_Dataset/train/images
+val: ./Taco_Dataset/valid/images
+test: ./Taco_Dataset/test/images
+
+nc: 1
+names: ['trash']
