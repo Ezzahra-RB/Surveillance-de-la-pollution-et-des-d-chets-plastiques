@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/badge/License-Academic-green.svg)]()
 
 > **Master's Project in Artificial Intelligence** | Computer Vision Module  
-> Supervised by **Dr. Issam QAFFOU**
 
 ---
 
