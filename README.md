@@ -21,8 +21,6 @@
 - [Results](#results)
 - [Installation & Usage](#installation--usage)
 - [Challenges](#challenges)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -236,7 +234,6 @@ streamlit run streamlit_app/app.py
 ```
 Then open your browser at `http://localhost:8501`
 
-```
 
 ---
 
