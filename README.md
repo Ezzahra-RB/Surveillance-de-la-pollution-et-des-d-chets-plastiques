@@ -53,11 +53,9 @@ The system provides real-time detection with bounding boxes and automatic counti
 
 ## 👥 Team
 
-| Team Member | Role & Responsibilities |
-|-------------|------------------------|
-| **ERRAMI Hafssa** | Dataset preparation, environment setup, initial YOLOv8 training |
-| **EL AAMRANI Zahira** | Literature review, state-of-the-art analysis, documentation |
-| **AIT EL ARBI Ezzahra** | Results analysis, visualization, model optimization |
+**AIT EL ARBI Ezzahra** 
+**EL AAMRANI Zahira**
+**ERRAMI Hafssa**
 
 ---
 
