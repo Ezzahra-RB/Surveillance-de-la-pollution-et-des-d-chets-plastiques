@@ -279,8 +279,8 @@ For commercial use or redistribution, please review the TACO dataset terms and c
 
 **AIT EL ARBI Ezzahra** | **EL AAMRANI Zahira** | **ERRAMI Hafssa**
 
-📧 **Email**: [Contact the team](mailto:your-email@example.com)  
-🔗 **GitHub**: [Project Repository](https://github.com/your-username/detection-dechets-plastiques)  
+📧 **Email**: [Contact the team](mailto:e.aitelarbi3519@uca.ac.ma)  
+🔗 **GitHub**: [Project Repository](https://github.com/Ezzahra-RB/Surveillance-de-la-pollution-et-des-d-chets-plastiques/edit/update/README.md)
 🎓 **Institution**: Master in Artificial Intelligence
 
 ### Supervisor
