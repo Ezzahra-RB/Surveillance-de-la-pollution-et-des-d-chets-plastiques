@@ -53,9 +53,9 @@ The system provides real-time detection with bounding boxes and automatic counti
 
 ## 👥 Team
 
-**AIT EL ARBI Ezzahra** 
-**EL AAMRANI Zahira**
-**ERRAMI Hafssa**
+- **AIT EL ARBI Ezzahra** 
+- **EL AAMRANI Zahira**
+- **ERRAMI Hafssa**
 
 ---
 
