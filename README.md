@@ -182,11 +182,11 @@ SURVEILLANCE-DE-LA-POLLUTION-ET-DES-DECHETS/
 
 | Metric | Value |
 |--------|-------|
-| **Overall mAP@50** | 0.411 |
-| **Precision** | 0.687 |
-| **Recall** | 0.325 |
-| **Test Images** | 299 |
-| **Total Instances** | 1,014 |
+| **Overall mAP@50** | 0.545 |
+| **Precision** | 0.696 |
+| **Recall** | 0.476 |
+| **Epocs** | 50 |
+| **Training duration** | 1.9 h |
 
 ### Key Findings:
 - ✅ Strong detection capability for visible, medium-to-large waste objects
@@ -236,19 +236,6 @@ streamlit run streamlit_app/app.py
 ```
 Then open your browser at `http://localhost:8501`
 
-#### Option 2: Command Line Inference
-```bash
-python src/inference.py --image path/to/image.jpg --weights models/best.pt
-```
-
-#### Option 3: Batch Processing
-```bash
-python src/inference.py --source data/test/ --weights models/best.pt --save-dir results/
-```
-
-### Training Your Own Model
-```bash
-python src/train.py --data data/dataset.yaml --epochs 100 --batch 16 --imgsz 640
 ```
 
 ---
@@ -276,48 +263,6 @@ Throughout this project, we encountered and addressed several challenges:
    - Training time optimization
    - Balancing model accuracy vs. inference speed
    - Memory limitations during batch processing
-
----
-
-## 🔮 Future Work
-
-### Short-term Improvements
-- [ ] Expand dataset with local image collection
-- [ ] Implement data augmentation for underrepresented classes
-- [ ] Fine-tune hyperparameters for better recall
-- [ ] Add confidence threshold adjustment in UI
-
-### Medium-term Goals
-- [ ] **Instance Segmentation**: Integrate Mask R-CNN or Segment Anything Model (SAM)
-- [ ] **Multi-class Refinement**: Improve detection for specific plastic types
-- [ ] **Video Processing**: Real-time detection in video streams
-- [ ] **Mobile Deployment**: Develop Android/iOS application
-
-### Long-term Vision
-- [ ] **Edge Deployment**: Deploy on Raspberry Pi or NVIDIA Jetson
-- [ ] **Temporal Analysis**: Track pollution trends over time
-- [ ] **Geographic Mapping**: Integrate with GIS for pollution hotspot identification
-- [ ] **Drone Integration**: Aerial waste detection for large-scale monitoring
-- [ ] **API Development**: RESTful API for third-party integration
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
-
-### Areas for Contribution:
-- Additional waste categories
-- Performance optimization
-- Documentation improvements
-- Bug fixes and testing
-- UI/UX enhancements
 
 ---
 
